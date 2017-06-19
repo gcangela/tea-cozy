@@ -1,0 +1,108 @@
+
+body{
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color:seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  text-align: center;
+  margin:0;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  height: 69px;
+  width:100%;
+  border-bottom: 1px solid seashell;
+  align-items:center;
+  position: fixed;
+  background-color: black;
+
+}
+
+.logo img{
+  height: 50px;
+  padding-left: 10px;
+}
+.nav-menu{
+  padding: 10px;
+}
+li{
+  list-style: none;
+  display:inline;
+  padding: 10px;
+}
+a{
+  color:seashell;
+}
+
+.mission-container{
+  margin-top:70px;
+  display:inline-flex;
+  align-items: center;
+  background-image: url(/Users/giancarlo/Documents/Dev_Projects/tea_cozy/resources/images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin-bottom: 50px;
+
+
+}
+.mission-statement{
+  background-color: black;
+  width:1200px;
+}
+.tea-section{
+  width: 1000px;
+  display:inline-block;
+}
+
+.flex-container{
+  width: 1000px;
+  display: inline-flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  flex-direction:row;
+  margin-bottom: 70px;
+}
+.flex-item{
+  padding: 5px;
+
+}
+.flex-item img{
+  height:200px;
+  width: 300px;
+  margin: 10px;
+}
+.flex-item span{
+  display: block;
+}
+
+#locations {
+  background-image: url(/Users/giancarlo/Documents/Dev_Projects/tea_cozy/resources/images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: inline-block;
+
+}
+#locations h2{
+  margin-top:65px;
+}
+
+.location-container{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+.location-item{
+  width: 300px;
+  margin: 0px 40px;
+  background-color: black;
+}
+.contact{
+  height:200px;
+}
+.footer{
+  margin-left:20px;
+  text-align: left;
+}
